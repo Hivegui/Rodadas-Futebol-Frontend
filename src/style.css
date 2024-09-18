@@ -16,15 +16,15 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 76px; /* Padding to reserve space for the header */
+  padding-top: 76px;
 }
 
 /* Header styles */
 header {
   background-color: #33B667;
-  width: 100%; /* The width covers the entire screen */
-  height: 76px; /* Defines the fixed height for the header */
-  position: fixed; /* Fixed to the top */
+  width: 100%; 
+  height: 76px; 
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -48,21 +48,21 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 20px; /* Adds side padding to avoid content sticking to the sides */
+  padding: 0 20px;
 }
 
 /* Style for the "Confira as rodadas do nosso campeonato fictício!" text */
 #championship-info {
   width: 100%;
-  max-width: 609px; /* Defines the maximum width */
-  margin: 0 20px 20px 20px; /* Margin on both sides and below */
+  max-width: 609px;
+  margin: 0 20px 20px 20px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 31.47px;
-  white-space: normal; /* Allows line breaks for small screens */
-  word-wrap: break-word; /* Ensures line breaks when necessary */
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 /* Round container structure */
@@ -78,14 +78,14 @@ main {
   width: 340px;
   height: 394px;
   border-radius: 10px;
-  border: 1px solid #DDDDDD; /* Light gray border around */
-  background-color: white; /* White background */
+  border: 1px solid #DDDDDD;
+  background-color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Evenly distribute the content */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  margin-bottom: 40px; /* Adds a larger bottom margin */
+  justify-content: space-between; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
 }
 
 /* Layout for title and navigation */
@@ -96,10 +96,10 @@ main {
   margin-bottom: 15px;
   padding: 0 10px;
   gap: 10px;
-  margin-top: 20px; /* Adjust this value to move the header lower */
+  margin-top: 20px;
 }
 
-/* Central alignment for "Rodadas de Jogos" and "RODADA 1" */
+/* Central alignment for “Game Rounds” and “ROUND 1” */
 .title-container {
   display: flex;
   flex-direction: column;
@@ -134,8 +134,8 @@ main {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 15px; /* Adjust to move the line closer to the shield */
-  right: 15px; /* Adjust to move the line closer to the shield */
+  left: 15px;
+  right: 15px;
   height: 1px;
   background-color: #DDDDDD;
 }
@@ -221,12 +221,11 @@ main {
 
 /* Media Queries for smaller screens */
 @media (max-width: 768px) {
-  /* Adjust the width and layout of the round-info on smaller screens */
   .round-info {
     width: 90%;
     height: auto;
     margin: 0;
-    margin-bottom: 20px; /* Adds a 20px bottom margin */
+    margin-bottom: 20px;
   }
 
   /* Reduce the font size of the title */
