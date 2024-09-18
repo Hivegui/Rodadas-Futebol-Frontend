@@ -12,32 +12,35 @@
     </header>
 
     <main>
-      <h2>Confira as rodadas do nosso campeonato fictício!</h2>
-      <div class="round-container">
-        <div class="round-info">
-          <div class="round-header">
-            <!-- Botão de Rodada Anterior -->
-            <button id="prev-round" class="round-nav left">&lt;</button>
+      <div class="content-container">
+        <!-- Championship information text -->
+        <h2 id="championship-info">Confira as rodadas do nosso campeonato fictício!</h2>
 
-            <!-- Título e número da rodada -->
-            <div class="title-container">
-              <h3>Rodadas de Jogos</h3>
-              <h4 id="round-number">RODADA 1</h4>
+        <!-- Round container -->
+        <div class="round-container">
+          <!-- Round information -->
+          <div class="round-info">
+            <div class="round-header">
+              <!-- Arrows before and after the title -->
+              <button id="prev-round" class="round-nav left">&lt;</button>
+
+              <div class="title-container">
+                <h3>Rodadas de Jogos</h3>
+                <h4 id="round-number">Rodada 1</h4>
+              </div>
+
+              <button id="next-round" class="round-nav right">&gt;</button>
             </div>
 
-            <!-- Botão de Próxima Rodada -->
-            <button id="next-round" class="round-nav right">&gt;</button>
-          </div>
-
-          <!-- Lista de Jogos e Pontuações -->
-          <div id="round-content" class="match-list">
-            <!-- Os dados serão preenchidos dinamicamente aqui -->
+            <!-- List of games and scores -->
+            <div id="round-content" class="match-list">
+              <!-- The data will be dynamically filled here -->
+            </div>
           </div>
         </div>
       </div>
     </main>
 
-    <!-- Certifique-se de que o caminho do script está correto -->
-    <script src="../src/main.tsx"></script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
