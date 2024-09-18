@@ -1,13 +1,43 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Rodadas de Esportes</title>
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <header>
+      <h1>SEVN ESPORTES ⚽</h1>
+    </header>
+
+    <main>
+      <h2>Confira as rodadas do nosso campeonato fictício!</h2>
+      <div class="round-container">
+        <div class="round-info">
+          <div class="round-header">
+            <!-- Botão de Rodada Anterior -->
+            <button id="prev-round" class="round-nav left">&lt;</button>
+
+            <!-- Título e número da rodada -->
+            <div class="title-container">
+              <h3>Rodadas de Jogos</h3>
+              <h4 id="round-number">RODADA 1</h4>
+            </div>
+
+            <!-- Botão de Próxima Rodada -->
+            <button id="next-round" class="round-nav right">&gt;</button>
+          </div>
+
+          <!-- Lista de Jogos e Pontuações -->
+          <div id="round-content" class="match-list">
+            <!-- Os dados serão preenchidos dinamicamente aqui -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Certifique-se de que o caminho do script está correto -->
+    <script src="../src/main.tsx"></script>
   </body>
 </html>
