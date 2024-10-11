@@ -1,8 +1,4 @@
-# Teste-Pleno-Frontend
- Teste Pleno de Front End
-
- 
-SEVN ESPORTES ⚽
+# SEVN ESPORTES ⚽
 
 Este projeto foi desenvolvido usando Vite como bundler para criar uma aplicação de exibição de rodadas de jogos fictícios. O projeto consome uma API externa para obter os dados dos jogos e exibe as rodadas com suas respectivas equipes e pontuações.
 
